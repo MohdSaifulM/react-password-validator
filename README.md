@@ -2,8 +2,6 @@
 
 Recreate a password validator in React. Your final product should function similarly to [this deployed version](http://excellent-tail.surge.sh) of the component.
 
-![](./Screenshot 2020-10-27 at 9.50.32 AM.png)
-
 ## Getting Started
 
 - Fork and clone this repo
