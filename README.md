@@ -17,7 +17,7 @@ For this exercise, don't be concerned about the distinction between container an
 ## Steps
 
 1. Add your form inputs in `Validator.js`. Include inputs for `email`, `password`, `passwordConfirm`, and a `submit` button.
-2. Add a constructor method and initialize state. Your state should include `email`, `password`, `passwordConfirm`, and `valid` properties.
+2. Initialize state. Your state should include `email`, `password`, `passwordConfirm`, and `valid` properties.
 
 ```jsx
     this.state = {
@@ -29,8 +29,8 @@ For this exercise, don't be concerned about the distinction between container an
 ```
 
 3. Add methods for handling inputs for password and password confirm, and checking that the passwords match. Be sure to update state in these methods using `.setState`
-4. Bind the methods in the constructor.
-5. Display a message if the user's inputs are valid.
+4. Display a message if the user's inputs are valid.
+
 
 ### Bonus
 
@@ -38,7 +38,8 @@ For this exercise, don't be concerned about the distinction between container an
 * Make sure passwords are at least 7 characters in length.
 * Make sure passwords includes a number and a special character. (Check out [Regex](http://emailregex.com/))
 * Validate the email to make sure it includes an `@` sign.
-* Highlight the inputs where the errors occurred.  
+* Highlight the inputs where the errors occurred.
+* Try switching to functional component and use useState.
 
 ### Double Mega Bonus
 
